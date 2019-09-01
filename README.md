@@ -1,4 +1,8 @@
 # TimeCatPPA
+
+[dists](./dists)
+[aarch64](./aarch64)
+
 .deb files for timecat
 
 ## Usage
