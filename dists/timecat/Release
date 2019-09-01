@@ -1,0 +1,16 @@
+Architectures: aarch64
+Codename: timecat
+Components: stable
+Date: Sun, 01 Sep 2019 21:36:05 +0000
+Label: timecat
+Origin: timecat
+Suite: timecat
+Version: 1.0.0
+MD5Sum:
+ 89263c3c23c8550932f8edf4aee45d2b              159 Release
+SHA1:
+ 15eba58575f1ad0ded14428d99e2a60c639bb64e              159 Release
+SHA256:
+ 1fc2299be03412f35e3685503c68ca68f9146d75af347aa5af921a542cb8b1dd              159 Release
+SHA512:
+ 33f433e4e471082c4363ba78ff88e3241c98bbc9dd62e9ae96a7a1a97285c57e3defc0e2f61ef3c27350370dffc4c96a8d92ee472ddcf884afe3f2f98f04fe3a              159 Release
