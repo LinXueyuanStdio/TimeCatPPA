@@ -1,3 +1,4 @@
-[debs.list](./debs.list)
-[key.asc](./key.asc)
-[KEY.gpg](./KEY.gpg)
+- [debs.list](./debs.list)
+- [key.asc](./key.asc)
+- [KEY.gpg](./KEY.gpg)
+- [README.md](./README.md)

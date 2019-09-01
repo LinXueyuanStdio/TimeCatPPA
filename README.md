@@ -1,7 +1,7 @@
 # TimeCatPPA
 
-[dists](./dists)
-[aarch64](./aarch64)
+- [dists](./dists)
+- [aarch64](./aarch64)
 
 .deb files for timecat
 
