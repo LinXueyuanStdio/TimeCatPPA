@@ -4,8 +4,8 @@
 ## Usage
 
 ```sh
-curl -s --compressed "https://LinXueyuanStdio.github.io/shell/aarch64/KEY.gpg" | sudo apt-key add -
-sudo curl -s --compressed -o /etc/apt/sources.list.d/timecat_debs.list "https://LinXueyuanStdio.github.io/shell/aarch64/debs.list"
+curl -s --compressed "https://xichen.pub/TimeCatPPA/shell/aarch64/KEY.gpg" | sudo apt-key add -
+sudo curl -s --compressed -o /etc/apt/sources.list.d/timecat_debs.list "https://xichen.pub/TimeCatPPA/shell/aarch64/debs.list"
 sudo apt update
 ```
 
