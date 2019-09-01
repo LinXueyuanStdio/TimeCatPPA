@@ -1,17 +1,24 @@
-Date: Sun, 01 Sep 2019 20:13:00 +0000
+Architectures: aarch64
+Codename: timecat
+Components: stable
+Date: Sun, 01 Sep 2019 20:29:16 +0000
+Label: timecat
+Origin: timecat
+Suite: timecat
+Version: 1.0.0
 MD5Sum:
  352c8a703fa6d3afe28a8f7a151be392           255592 Packages
- b3fe2ece660c5bc1709850ec7a1c5211            85939 Packages.gz
- 591b3f01d2fffcaa21cc8a7b999403d1               38 Release
+ f7260be9cce2de8b6a44b07ea135b39c            85939 Packages.gz
+ 041e7de99c45263e8594927d4c26a3c9              159 Release
 SHA1:
  dbbf62d637c6501b07f35110c8665a7ea6c3725d           255592 Packages
- 057dcffd8fe6c001bf39f8fd054b3e2689c52d65            85939 Packages.gz
- 1606237ef3aea366838777d19ed78a550d7068f2               38 Release
+ a59757de1e73ac470c8289333b546e362d565b50            85939 Packages.gz
+ 156d250474646c4df450ff334ddfb86feea5880d              159 Release
 SHA256:
  1b9f8ff2ad207bbc027aac19f835cfbf8ba8734803901fdd132af702a6f50454           255592 Packages
- 912b6b15981c5b5de5526bb483a376bd12fa51b3902df878568317da04e13371            85939 Packages.gz
- 632a23a8fbd418a0b0fff72a9736965813f5a2b31509f12111ba169ad6802ff1               38 Release
+ 35b9d1079af7b848b32a6ca354c423d1ea4026367c426214fe10a663c1192ed8            85939 Packages.gz
+ 9d20305e7522364ca7803a50cfb0882b6dfa4f00c23eb6a532a7cb16d7e161ee              159 Release
 SHA512:
  c33471c3c82e9c8d5fb3aa7ae2ce7e8a78045f1c80538f35d8409172f64e80e627108afa1daf829d5bd72888f819d836bcae3cb6ed1e75ebbf902bb0a439d7dc           255592 Packages
- ce04392f8e67847c3cf5fd20eb763ce1aa1ae361a57073f16e7df6ddc19067dd85b3ebf593e00ed36fa2f81cb46269a9420adcf44139d81094df33a206668a57            85939 Packages.gz
- 1fc4f011c961deac96c103970fd3011e72852619dcaff20b5de38c9ed350fc9e4c4731aa4420d1e3bfeaa36d6a3cb2d7b1e84b56fbff8b6c94cbd26d4a5d91c9               38 Release
+ dbdf9e73bf896f6a8782b02020326a25dec5540ca4c2f100cd037904d58b5fbd67797c14e716afcf048635f061ff4ba2360c694897433398cd28f3bfd2c9dab9            85939 Packages.gz
+ c669b800f86166b956a440cd85e391198f78b61035f56c7a76572cd902af2e20bfa51fd2aff5a7f0e95c79d68e5e19005f6d7354d01c96d52106ce1a1f4571e4              159 Release

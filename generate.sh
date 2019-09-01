@@ -16,7 +16,7 @@ export KEYNAME=761516186@qq.com
     gzip -k -f Packages
 
     # Release, Release.gpg & InRelease
-    apt-ftparchive release . > Release
+    apt-ftparchive -c ../../apt.config release . > Release
     gpg --default-key "${KEYNAME}" -abs -o - Release > Release.gpg
     gpg --default-key "${KEYNAME}" --clearsign -o - Release > InRelease
 )
