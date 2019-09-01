@@ -2,7 +2,11 @@ import os
 
 debs_dir = './aarch64/'
 
-debs = os.listdir(debs_dir)
+def generateREADMEforFolder(debs_dir):
+  debs = os.listdir(debs_dir)
+  with open(debs_dir + 'README.md', 'w') as f:
+    f.write('\n'.join(['- [' + i + '](./' + i + ')' for i in debs if i != 'README.md']))
 
-with open(debs_dir + 'README.md', 'w') as f:
-  f.write('\n'.join(['- [' + i + '](./' + i + ')' for i in debs]))
+generateREADMEforFolder('./aarch64/')
+generateREADMEforFolder('./dists/')
+generateREADMEforFolder('./shell/')

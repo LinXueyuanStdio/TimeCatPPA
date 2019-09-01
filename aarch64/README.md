@@ -451,7 +451,6 @@
 - [rclone_1.48.0-1_aarch64.deb](./rclone_1.48.0-1_aarch64.deb)
 - [readline-static_8.0.1_aarch64.deb](./readline-static_8.0.1_aarch64.deb)
 - [readline_8.0.1_aarch64.deb](./readline_8.0.1_aarch64.deb)
-- [README.md](./README.md)
 - [redir_3.3_aarch64.deb](./redir_3.3_aarch64.deb)
 - [redis_5.0.5_aarch64.deb](./redis_5.0.5_aarch64.deb)
 - [remind_3.1.16_aarch64.deb](./remind_3.1.16_aarch64.deb)
