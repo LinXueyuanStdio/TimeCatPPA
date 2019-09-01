@@ -8,8 +8,8 @@
 ## Usage
 
 ```sh
-curl -s --compressed "https://xichen.pub/TimeCatPPA/shell/aarch64/KEY.gpg" | sudo apt-key add -
-sudo curl -s --compressed -o /etc/apt/sources.list.d/timecat_debs.list "https://xichen.pub/TimeCatPPA/shell/aarch64/debs.list"
+curl -s --compressed "https://xichen.pub/TimeCatPPA/shell/KEY.gpg" | sudo apt-key add -
+sudo curl -s --compressed -o /etc/apt/sources.list.d/timecat_debs.list "https://xichen.pub/TimeCatPPA/shell/debs.list"
 sudo apt update
 ```
 
@@ -23,7 +23,7 @@ sudo apt install pkg1 pkg2 pkg3
 gpg --import key.asc
 ```
 
-copy the new deb files to `shell/aarch64` and execute
+copy the new deb files to `aarch64` and execute
 
 ```sh
 ./release.sh
