@@ -10,9 +10,9 @@
 ## Usage
 
 ```sh
-curl -s --compressed "https://xichen.pub/TimeCatPPA/shell/KEY.gpg" | sudo apt-key add -
-sudo curl -s --compressed -o /etc/apt/sources.list.d/timecat_debs.list "https://xichen.pub/TimeCatPPA/shell/debs.list"
-sudo apt update
+curl -s --compressed "http://xichen.pub/TimeCatPPA/shell/KEY.pgp" | apt-key add -
+curl -s --compressed -o /etc/apt/sources.list.d/timecat_debs.list "http://xichen.pub/TimeCatPPA/shell/debs.list"
+apt update
 ```
 
 ```sh
