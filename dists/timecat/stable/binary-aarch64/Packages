@@ -746,6 +746,20 @@ SHA256: 28f1eb1e0524f10e4c5afcb30e54c9ef9cb4a3b464559657844c2f13eddb268a
 Homepage: https://en.wikipedia.org/wiki/Cowsay
 Description: Program which generates ASCII pictures of a cow with a message
 
+Package: cpio
+Version: 2.12
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 224
+Depends: tar
+Filename: aarch64/cpio_2.12_aarch64.deb
+Size: 59074
+MD5sum: 08f03a2dedfe1013ae53c25dae762a96
+SHA1: dbcc2223e3118e659e35804159943cf7cdab54a1
+SHA256: 50ba59268367abc0c4e34a200852009f675b5744d6988533039dc98c34ecd042
+Homepage: https://www.gnu.org/software/cpio/
+Description: CPIO implementation from the GNU project
+
 Package: cppi
 Version: 1.18-1
 Architecture: aarch64
@@ -1148,6 +1162,20 @@ SHA1: cb8112bfc51c811ea46d1a115a9bffa5b8cfc68d
 SHA256: 857e97b38eed305d11639aa2285c44bdbdfdf41b7119fb0bd249ba2d560fdf91
 Homepage: https://www.gnu.org/software/ed/
 Description: Classic UNIX line editor
+
+Package: elinks
+Version: 0.13.GIT-4
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1240
+Depends: libexpat, libiconv, libidn, openssl, libbz2, zlib
+Filename: aarch64/elinks_0.13.GIT-4_aarch64.deb
+Size: 369702
+MD5sum: 4585f6275ec248a6b3dc24c5b6d5459f
+SHA1: a24da58e27b304184dffab6cbc4d80888074c530
+SHA256: 4de4ee21b6835e6475da94095f724de6a8be9253b41e25188ba3827519fde8ad
+Homepage: http://elinks.or.cz
+Description: Full-Featured Text WWW Browser
 
 Package: erlang
 Version: 22.0.7-1
@@ -3639,6 +3667,36 @@ SHA256: 1a242d27cb69cf14ad2b012ce8fe46b216ee840b19634d1c77f78a527c1958b4
 Homepage: https://github.com/silnrsi/graphite
 Description: Font system for multiple languages
 
+Package: libgsasl
+Version: 1.8.0-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 196
+Depends: libidn
+Breaks: libgsasl-dev
+Replaces: libgsasl-dev
+Filename: aarch64/libgsasl_1.8.0-2_aarch64.deb
+Size: 40410
+MD5sum: 7a81de995ffab035cf854e7fe6c787ac
+SHA1: a018f74877023b21594546fb333e7ffce7777997
+SHA256: 30f03e7cfe966cb1a3bc6ae1056cf0ae909b3fba60403cbbe00faff31fee4c9d
+Homepage: https://www.gnu.org/software/gsasl
+Description: GNU SASL library
+
+Package: libgsasl-static
+Version: 1.8.0-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 288
+Depends: libgsasl (= 1.8.0-2)
+Filename: aarch64/libgsasl-static_1.8.0-2_aarch64.deb
+Size: 47444
+MD5sum: 1f64e7a282c8f59c14d16a8ddc50e0e2
+SHA1: 77530e4666a9635b6dc2c63b7af55050be4ea8e3
+SHA256: 4f3b59f30928dfaffd78afabd6f9d86534afc243d11c7811971e14fa1d240339
+Homepage: https://www.gnu.org/software/gsasl
+Description: Static libraries for libgsasl
+
 Package: libiconv
 Version: 1.16-3
 Architecture: aarch64
@@ -4229,6 +4287,36 @@ SHA256: ab3b08ad935878cb4967312bde676e3f877e6de6eaa1eb1f4062f9b3e70a8c38
 Homepage: https://lame.sourceforge.net/
 Description: Static libraries for libmp3lame
 
+Package: libmpc
+Version: 1.1.0-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 244
+Depends: libgmp, libmpfr
+Breaks: libmpc-dev
+Replaces: libmpc-dev
+Filename: aarch64/libmpc_1.1.0-1_aarch64.deb
+Size: 50608
+MD5sum: 1f719e2eaa9a46370c4e1d690bf198b8
+SHA1: 6bef84594c667f79efd494e52f995e2198b120a5
+SHA256: 4fff03836d6fe629c02689ba6fca9ed4647312e3186905a84b86be0dd665ef54
+Homepage: http://www.multiprecision.org/
+Description: Library for the arithmetic of complex numbers with arbitrarily high precision
+
+Package: libmpc-static
+Version: 1.1.0-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 252
+Depends: libmpc (= 1.1.0-1)
+Filename: aarch64/libmpc-static_1.1.0-1_aarch64.deb
+Size: 36946
+MD5sum: a245ab2296bf5869d0b1b5b9f19db395
+SHA1: a6c927fa6f3545748f7667de0f72ee424d9326ea
+SHA256: e6407294958501ffd16d430d5312f3222c18b66efb2ea21a99682a0cf4d136e0
+Homepage: http://www.multiprecision.org/
+Description: Static libraries for libmpc
+
 Package: libmpdclient
 Version: 2.16-2
 Architecture: aarch64
@@ -4567,6 +4655,36 @@ SHA256: f75a12aba678de1af2b070fd1df8fdc54010d50935ebaed93e9bb926ae174436
 Homepage: https://github.com/xiph/libopusenc
 Description: Static libraries for libopusenc
 
+Package: libotr
+Version: 4.1.1-1
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 420
+Depends: libgcrypt
+Breaks: libotr-dev
+Replaces: libotr-dev
+Filename: aarch64/libotr_4.1.1-1_aarch64.deb
+Size: 65016
+MD5sum: ad6bbed39cf3c9df038373a1f48621cb
+SHA1: a039aa6d3c80498f120f41969896d9f74c19885e
+SHA256: 20e99d6b7a21be11d5450fc976ddebbec346ad9d215db654ad47c5b154d35508
+Homepage: https://otr.cypherpunks.ca
+Description: Off-the-Record (OTR) Messaging allows you to have private conversations over instant messaging by providing: Encryption, Authentication, Deniability, Perfect forward secrecy
+
+Package: libotr-static
+Version: 4.1.1-1
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 184
+Depends: libotr (= 4.1.1-1)
+Filename: aarch64/libotr-static_4.1.1-1_aarch64.deb
+Size: 37296
+MD5sum: 3eba92d07c9a349ce467c505ff59a6d6
+SHA1: 481c2ec75697d875f3685e50f204343ec7ea0adf
+SHA256: 739b2ab0eb7dfc904897f48f3fb11be07d6dffa1e5526fd0e191aa2e771a7df7
+Homepage: https://otr.cypherpunks.ca
+Description: Static libraries for libotr
+
 Package: libpcap
 Version: 1.9.0-1
 Architecture: aarch64
@@ -4744,6 +4862,22 @@ SHA256: e0002fcbed23525462d5977f5a615760dc6ad02645b016cf157608913f1a39eb
 Homepage: https://github.com/google/protobuf
 Description: Protocol buffers C++ library
 
+Package: librsync
+Version: 2.1.0
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 140
+Depends: libbz2
+Breaks: librsync-dev
+Replaces: librsync-dev
+Filename: aarch64/librsync_2.1.0_aarch64.deb
+Size: 23878
+MD5sum: 91c42eafee2e485d8d13eedb026bf6df
+SHA1: 58e5c37ae43b18c7d92564d6dbbb787016c07227
+SHA256: 71869b1b1c50a1b48ef6ff992eadaa857b2f4d10bdc25866b6843e8a02e1aaed
+Homepage: https://github.com/librsync/librsync
+Description: Remote delta-compression library
+
 Package: libsasl
 Version: 2.1.27-1
 Architecture: aarch64
@@ -4862,6 +4996,36 @@ SHA1: dc6eb0a33c1678b7ab2f5fcf082b55968678f57a
 SHA256: effbb4383fc842e331655d109ea942239f6929b139fca6c19638531512d2047a
 Homepage: https://www.libssh.org/
 Description: Tiny C SSH library
+
+Package: libssh2
+Version: 1.9.0-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1040
+Depends: openssl, zlib
+Breaks: libssh2-dev
+Replaces: libssh2-dev
+Filename: aarch64/libssh2_1.9.0-1_aarch64.deb
+Size: 176142
+MD5sum: e984fbb450b92d5dd7328ca3ff2ce613
+SHA1: 6dded397f0df540f8281e9afb5a34c987fc448a0
+SHA256: 8813a932ac7db484acd2eeb2367ea2730eb287871a5ee7a6f14230bddee52f13
+Homepage: https://www.libssh2.org
+Description: Client-side library implementing the SSH2 protocol
+
+Package: libssh2-static
+Version: 1.9.0-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 412
+Depends: libssh2 (= 1.9.0-1)
+Filename: aarch64/libssh2-static_1.9.0-1_aarch64.deb
+Size: 92400
+MD5sum: 56eb91a12db89afd21c78c27b697d17b
+SHA1: 097c4ee51adb0be7d837254be7721c8901e855d2
+SHA256: f8c7ad7ffa3c66f7df684811885a5d144836ac10025b66f1cd8fda44a0ba08c2
+Homepage: https://www.libssh2.org
+Description: Static libraries for libssh2
 
 Package: libtalloc
 Version: 2.1.14-3
@@ -5188,6 +5352,22 @@ SHA256: f662c5520aef31d2954180eea7c637adfbc71a1804683e39a5dccef804942c24
 Homepage: https://github.com/webmproject/libwebp
 Description: Static libraries for libwebp
 
+Package: libwebsockets
+Version: 3.2.0
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 912
+Depends: openssl
+Breaks: libwebsockets-dev
+Replaces: libwebsockets-dev
+Filename: aarch64/libwebsockets_3.2.0_aarch64.deb
+Size: 191866
+MD5sum: 9daa2d28b61e133055b69e2455ac1c30
+SHA1: df24d3c525fba97da8c9f8bd63cad18671802e18
+SHA256: 9766c2b8c845b4aa1d23135e4f418531b0dce247020b9e78ee4f179bc290e2e2
+Homepage: https://libwebsockets.org
+Description: Lightweight C websockets library
+
 Package: libx264
 Version: 20190215-1
 Architecture: aarch64
@@ -5350,6 +5530,22 @@ SHA256: 7dfc7cb3f49caa9d9f12071159ce5957baadcf882cab94a21f58c20ffba81e8d
 Homepage: https://pyyaml.org/wiki/LibYAML
 Description: Static libraries for libyaml
 
+Package: libzip
+Version: 1.5.2-3
+Architecture: aarch64
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Installed-Size: 732
+Depends: libbz2, openssl, zlib
+Breaks: libzip-dev
+Replaces: libzip-dev
+Filename: aarch64/libzip_1.5.2-3_aarch64.deb
+Size: 189674
+MD5sum: f813fb9e864f91bf2648a60b3e529f20
+SHA1: ffdbc6ba2df1cb327a2020368c1c99c599b3ee9d
+SHA256: 4ca9c614e4ec414e5a0555639304a496ccf4aad46f54cf0cfeb13a3bbe4db871
+Homepage: https://libzip.org/
+Description: Library for reading, creating, and modifying zip archives
+
 Package: libzmq
 Version: 4.3.2-1
 Architecture: aarch64
@@ -5396,6 +5592,20 @@ SHA256: 4bd1346f470296c45e0ceb56d6d90a6dd64d215b6c1a06e8966878d4fbdc6e20
 Homepage: https://github.com/google/zopfli
 Description: New zlib compatible compressor library
 
+Package: links
+Version: 2.19-3
+Architecture: aarch64
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Installed-Size: 2052
+Depends: libbz2, libevent, liblzma, openssl, zlib
+Filename: aarch64/links_2.19-3_aarch64.deb
+Size: 537038
+MD5sum: 4ffb464307572b6a6f8d208561b7be12
+SHA1: 696de303c987a12c6fe204b6fb366df492198554
+SHA256: f0414fba537ab96279f08edc8e53318d9de8795ea2dad8504ef844464f67a5be
+Homepage: http://links.twibright.com
+Description: Links is a text and graphics mode WWW browser
+
 Package: lld
 Version: 8.0.1
 Architecture: aarch64
@@ -5437,6 +5647,20 @@ SHA1: fe513c408a6fc44144ace7d75d35e4e6edb66d74
 SHA256: 6df70be72bac0c07dbc7805d262dedf54686a0c71ba07abe2aa06a9a5fbb77d5
 Homepage: https://github.com/dimkr/loksh
 Description: A Linux port of OpenBSD's ksh
+
+Package: lynx
+Version: 2.8.9rel.1-4
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1796
+Depends: libiconv, ncurses, openssl, libbz2, libidn, zlib
+Filename: aarch64/lynx_2.8.9rel.1-4_aarch64.deb
+Size: 517564
+MD5sum: a7d4439508bb428005d62084dfda5b44
+SHA1: 00339d583ea5ba900108066622417c92b904fb00
+SHA256: 332a7786c0f20521b463ecb78c6b1a304cb24861d9c7fe1c0160b83402ba4bd6
+Homepage: http://lynx.browser.org/
+Description: The text web browser
 
 Package: lz4
 Version: 1.9.1-2
@@ -5703,6 +5927,20 @@ SHA1: 3f07ac2f1bf05c7a02bf0925be130509dfa307a3
 SHA256: 6ed370ff0ab40e971d42274d5261fc73258f9bfc0785d2f11cefd472368a26e9
 Homepage: http://www.vanheusden.com/multitail/
 Description: Tool to monitor logfiles and command output in multiple windows in a terminal, colorize, filter and merge
+
+Package: mutt
+Version: 1.12.1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 4448
+Depends: libandroid-support, ncurses, gdbm, openssl, libsasl, mime-support, zlib, libiconv
+Filename: aarch64/mutt_1.12.1_aarch64.deb
+Size: 875974
+MD5sum: 2f834a8d2dbe819ab42c8a5299d27881
+SHA1: 46f83097e0fadbaa81c7a1225c3b4d688fcc2197
+SHA256: f8e925303360afb670da6ccdadf5cea3a4406c59bc71ae7b52b848a50c71540d
+Homepage: http://www.mutt.org/
+Description: Mail client with patches from neomutt
 
 Package: nano
 Version: 4.3-1
@@ -6694,6 +6932,39 @@ SHA256: d1a36184ffc13057831d51842e43202edbfcd8e86b956a560aae994f8e076279
 Homepage: https://rclone.org/
 Description: rsync for cloud storage
 
+Package: rcs
+Version: 5.9.4-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 640
+Depends: diffutils
+Filename: aarch64/rcs_5.9.4-2_aarch64.deb
+Size: 149650
+MD5sum: 87f80573cb854e82bd191563466cf82c
+SHA1: 3fda43c687bf8de3d7c9a4fb5cc38eb7e8e3ae2f
+SHA256: a23278c60e0f344943219a19d4cef1c93870c9e47b53f259c977b6bf8e2fa74d
+Homepage: https://www.gnu.org/s/rcs
+Description: The GNU Revision Control System
+ The Revision Control System (RCS) manages multiple
+ revisions of files. RCS automates the storing, retrieval,
+ logging, identification, and merging of revisions. RCS is
+ useful for text that is revised frequently, for example
+ programs, documentation, graphics, papers, and form letters.
+
+Package: rdiff
+Version: 2.1.0
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 60
+Depends: libpopt, librsync (= 2.1.0)
+Filename: aarch64/rdiff_2.1.0_aarch64.deb
+Size: 5792
+MD5sum: b144f9168c6b9afa4b8a1a82b5aead68
+SHA1: f909d6b78f6d06e4c4ea76d2c7ef217a9cc3eef9
+SHA256: 41479a906e9bf1e98fc60ee590356858700a901a951eba053b6206c79872a306
+Homepage: https://github.com/librsync/librsync
+Description: Remote incremental backup
+
 Package: readline
 Version: 8.0.1
 Architecture: aarch64
@@ -6849,6 +7120,36 @@ SHA256: a7facf41fa5f5e91896ca8490b2debbdd60efdee07f5a0e277a697f7547a5920
 Homepage: https://github.com/termux/termux-root-packages
 Description: Package repository containing programs for rooted devices
 
+Package: rtmpdump
+Version: 2.4-3
+Architecture: aarch64
+Maintainer: Pierre Rudloff @Rudloff
+Installed-Size: 348
+Depends: openssl, zlib
+Breaks: rtmpdump-dev
+Replaces: rtmpdump-dev
+Filename: aarch64/rtmpdump_2.4-3_aarch64.deb
+Size: 81180
+MD5sum: a335cbc3c18b6436a49d900a04adf895
+SHA1: d5482843dc7d8fa9db4898f01abe479ce00c7c58
+SHA256: 111a95b285233f49b67d359748c60ef37f70c19afe3ff32bf898b432a6bfe47f
+Homepage: https://rtmpdump.mplayerhq.hu/
+Description: Small dumper for media content streamed over the RTMP protocol
+
+Package: rtmpdump-static
+Version: 2.4-3
+Architecture: aarch64
+Maintainer: Pierre Rudloff @Rudloff
+Installed-Size: 200
+Depends: rtmpdump (= 2.4-3)
+Filename: aarch64/rtmpdump-static_2.4-3_aarch64.deb
+Size: 48602
+MD5sum: c6ddc683ccacc7120513a742dcfa482b
+SHA1: 3d5a35e8dafb9ff82b458b693064a4a590bec434
+SHA256: 1a8fba9499ff65ec288db8d27de7dc76c6047088a37eb5f36c3262c45b2ddaff
+Homepage: https://rtmpdump.mplayerhq.hu/
+Description: Static libraries for rtmpdump
+
 Package: sc
 Version: 7.16-3
 Architecture: aarch64
@@ -6876,6 +7177,20 @@ SHA1: 4f15e5e8e455f3e3103b738d373716eb006c87d6
 SHA256: ceb22aeae1bc03ad216b2337b696c82ca1d2afde74912fbae5e796bd4b7fb404
 Homepage: https://github.com/termux/science-packages
 Description: Package repository containing science software
+
+Package: scrypt
+Version: 1.2.1-3
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 104
+Depends: openssl
+Filename: aarch64/scrypt_1.2.1-3_aarch64.deb
+Size: 17614
+MD5sum: 328ea3dfcda067aeb4841c917971f202
+SHA1: dc9f74a8ebd4b2e7c85c4ff149c52be34580156e
+SHA256: dc4f3e6c0f7b8056b93cec2b74d9267e394318d9174a4786bce1a7a5c76a2f45
+Homepage: https://www.tarsnap.com/scrypt.html
+Description: scrypt KDF library and file encryption tool
 
 Package: sed
 Version: 4.7-1
@@ -7086,6 +7401,34 @@ SHA256: 58806f8e37949c228bcbbb1738400472d79dd2e75848f3bf7d7b1c826827905b
 Homepage: https://strace.io/
 Description: Debugging utility to monitor system calls and signals received
 
+Package: stunnel
+Version: 5.55
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 588
+Depends: openssl
+Filename: aarch64/stunnel_5.55_aarch64.deb
+Size: 141564
+MD5sum: e6ffd2ce8fb748ec3335a99121dad6ea
+SHA1: 64bf6d822c9916929822de091501e4a90ffd1d95
+SHA256: 60add9e2baae918a95e63c7a3e5acb8d1f8ba1797c71d99c55fd0e4f4d34a3ac
+Homepage: https://www.stunnel.org/
+Description: Socket wrapper which can provide TLS support to ordinary applications
+
+Package: stunnel-static
+Version: 5.55
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 40
+Depends: stunnel (= 5.55)
+Filename: aarch64/stunnel-static_5.55_aarch64.deb
+Size: 1874
+MD5sum: b562d9604741957c2beb17af4d36624b
+SHA1: 42dca748400c6484676cd18d142388b042fe3a2c
+SHA256: d8867eba15db54080ec71f55d3563abb7830d4da77b1626bcd7f6f76e09f7d1b
+Homepage: https://www.stunnel.org/
+Description: Static libraries for stunnel
+
 Package: swig
 Version: 4.0.1
 Architecture: aarch64
@@ -7242,6 +7585,20 @@ SHA1: 83d159c36649a96d7e63d15b663736c7c15e6668
 SHA256: 21ac88276fe36fb95803edd9c69f30e05be2e6366811ee57f8d1fa6b954938d5
 Homepage: https://termux.com
 Description: Contains LICENSE files for common licenses
+
+Package: termux-services
+Version: 0.0.5
+Architecture: all
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 84
+Depends: busybox, coreutils
+Filename: aarch64/termux-services_0.0.5_all.deb
+Size: 1812
+MD5sum: 49cb26f41fabd78bebc1621a1e323b1e
+SHA1: 06b79a396648bffa8e211a406677818b19d6afd1
+SHA256: 402bcc6258df7faa42d5e97f0986173890bce92ae3385acda953f80af27de811
+Homepage: https://github.com/Neo-Oli/termux-services/
+Description: Service daemon for Termux
 
 Package: termux-tools
 Version: 0.69-2
@@ -7545,6 +7902,36 @@ SHA256: b9586bef9062feb668653d94c12e2eead658a086555d0220f242a67742e01b50
 Homepage: https://github.com/fornwall/utfdecode
 Description: Tool for decoding, encoding and debugging unicode
 
+Package: util-linux
+Version: 2.34-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 3404
+Depends: ncurses, libcrypt, zlib
+Breaks: util-linux-dev
+Replaces: util-linux-dev
+Filename: aarch64/util-linux_2.34-2_aarch64.deb
+Size: 542592
+MD5sum: 8f6d923cc619d07ee5bf854ae0a78604
+SHA1: 155ec9f02bb6382eeea783a43bd5d0e3ae021264
+SHA256: 6633a20f2376986896986d2491640bfeb88eeb7d5b600fb8f2d6bdce6826a014
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Description: Miscellaneous system utilities
+
+Package: util-linux-static
+Version: 2.34-2
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1164
+Depends: util-linux (= 2.34-2)
+Filename: aarch64/util-linux-static_2.34-2_aarch64.deb
+Size: 164834
+MD5sum: 58c88b578ee85a49072dc863f6f58287
+SHA1: 6ce6368d80daa7c4a96fb664aacca0df83b53b18
+SHA256: 7c2732933acaecd2262a4de08d7fa634bc27a8e7e4aedfc77b7979e555612679
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Description: Static libraries for util-linux
+
 Package: valgrind
 Version: 3.15.0-2
 Architecture: aarch64
@@ -7645,6 +8032,20 @@ SHA1: a5630d14bd613f2052203d5d70f4b19015008e06
 SHA256: 6f8026e3f411b95c8fec059bd3a6391f46a3f746ac397ee1be21bb472e0d9c35
 Homepage: https://github.com/fornwall/vtutils
 Description: Utilities for testing and working with virtual terminals
+
+Package: w3m
+Version: 0.5.3.20190105-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1556
+Depends: libgc, ncurses, openssl, zlib
+Filename: aarch64/w3m_0.5.3.20190105-1_aarch64.deb
+Size: 622818
+MD5sum: ad3869592e7d4f09a8191d31a345dbb8
+SHA1: 1c8c90dfe583788430137989094894b8500f97a9
+SHA256: 2a812052da59822d79c98f9476842db8f918509d441537f06948c44df5dd6912
+Homepage: http://w3m.sourceforge.net/
+Description: Text based Web browser and pager
 
 Package: wget
 Version: 1.20.3-2
