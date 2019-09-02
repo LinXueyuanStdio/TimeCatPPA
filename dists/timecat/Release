@@ -1,24 +1,38 @@
-Architectures: aarch64
-Codename: timecat
-Components: stable
-Date: Mon, 02 Sep 2019 06:05:59 +0000
-Label: timecat
-Origin: timecat
-Suite: timecat
-Version: 1.0.0
-MD5Sum:
- d95334cbf3c2dbcf81e221004b7bed82             1501 Release
- f84ca29f2f9e27e14b153f0c83fcc21b           277882 stable/binary-aarch64/Packages
- 96b4a15156ab58f3bf363ce0d9527d74            92309 stable/binary-aarch64/Packages.gz
-SHA1:
- d41dcc0de0f4267e0abd172958ac4d2ae048761a             1501 Release
- 7b719d99957256d6915ea094446eee536d16426a           277882 stable/binary-aarch64/Packages
- f90c3ad4852696aa4f1cb581a2b84c7582c1a0a5            92309 stable/binary-aarch64/Packages.gz
-SHA256:
- 903397798b2040c928ec4e69d0ced2fe4e34e8cbbaa091862708510a68331696             1501 Release
- 6bb89837a63d29d446a06a034be537ee73dba6b923a17fc2f0380d85f23765fb           277882 stable/binary-aarch64/Packages
- ac425b74159f0d443191a03000a138af235172ddfa4278dc3fe581085c797e03            92309 stable/binary-aarch64/Packages.gz
-SHA512:
- 30e7ddf3502e8c3e46bcc06cccfbfe1744e606fced8fd5adfbd9bd9e25a4c7d098c901a5be4b27f945200486b0ac9217cc0c9d4e5f8142f622f7056e70638e85             1501 Release
- da9ae6d379d29e23be1b8b9cac7ac986817b20b38e4d288ca5e47696b6ffb1e407a1eea4fb62c876b49e9ed8b060b43d1c6b9c0267f08c0e40ab5bfb2d295453           277882 stable/binary-aarch64/Packages
- 11aa6b9e1f583bb6a0d719ffe581799229dc093dd3414b5aacc5e2a860de3d967f2754ca0accba1d78df4b801379e7de0e7677d67893f8442d5daaeceb6376cc            92309 stable/binary-aarch64/Packages.gz
+Usage: apt-ftparchive [options] command
+Commands: packages binarypath [overridefile [pathprefix]]
+          sources srcpath [overridefile [pathprefix]]
+          contents path
+          release path
+          generate config [groups]
+          clean config
+
+apt-ftparchive generates index files for Debian archives. It supports
+many styles of generation from fully automated to functional replacements
+for dpkg-scanpackages and dpkg-scansources
+
+apt-ftparchive generates Package files from a tree of .debs. The
+Package file contains the contents of all the control fields from
+each package as well as the MD5 hash and filesize. An override file
+is supported to force the value of Priority and Section.
+
+Similarly apt-ftparchive generates Sources files from a tree of .dscs.
+The --source-override option can be used to specify a src override file
+
+The 'packages' and 'sources' command should be run in the root of the
+tree. BinaryPath should point to the base of the recursive search and 
+override file should contain the override flags. Pathprefix is
+appended to the filename fields if present. Example usage from the 
+Debian archive:
+   apt-ftparchive packages dists/potato/main/binary-i386/ > \
+               dists/potato/main/binary-i386/Packages
+
+Options:
+  -h    This help text
+  --md5 Control MD5 generation
+  -s=?  Source override file
+  -q    Quiet
+  -d=?  Select the optional caching database
+  --no-delink Enable delinking debug mode
+  --contents  Control contents file generation
+  -c=?  Read this configuration file
+  -o=?  Set an arbitrary configuration option
