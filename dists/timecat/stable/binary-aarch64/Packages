@@ -2172,6 +2172,50 @@ SHA256: 2a1e18f6af5532dc06e60f23b6f8a13f4c09205185f42d137c1f1f32427af41a
 Homepage: https://hisham.hm/htop/
 Description: Interactive process viewer for Linux
 
+Package: httping
+Version: 2.5-2
+Architecture: aarch64
+Maintainer: Pierre Rudloff @Rudloff
+Installed-Size: 156
+Depends: fftw, libandroid-support, ncurses, openssl
+Filename: aarch64/httping_2.5-2_aarch64.deb
+Size: 35346
+MD5sum: 57aba1f02206b5037409453019da40bc
+SHA1: 888ee07abbc1ecb1c9d3216e044327bcd34136a0
+SHA256: dd002b7d07507cf356d2ba71dbbac93c0aa925b8e292ca7a17e26ec52290b94c
+Homepage: https://www.vanheusden.com/httping/
+Description: ping-like program for http-requests
+
+Package: httrack
+Version: 3.49.2-8
+Architecture: aarch64
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Installed-Size: 3696
+Depends: libiconv, openssl, zlib
+Breaks: httrack-dev
+Replaces: httrack-dev
+Filename: aarch64/httrack_3.49.2-8_aarch64.deb
+Size: 933782
+MD5sum: 28b32d191752db1f4f6d645842f8c0fd
+SHA1: 4a50918878c211dfe03c18a6b56ac1e31e578e4b
+SHA256: 5aa2694a68c0922c4b9a36a613e47a42f664aa83d61358384dca48a9a25a3d13
+Homepage: http://www.httrack.com
+Description: It allows you to download a World Wide Web site from the Internet
+
+Package: httrack-static
+Version: 3.49.2-8
+Architecture: aarch64
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Installed-Size: 1112
+Depends: httrack (= 3.49.2-8)
+Filename: aarch64/httrack-static_3.49.2-8_aarch64.deb
+Size: 237780
+MD5sum: 66b9ae6e265a3dd6f8a073d6ecd20e91
+SHA1: 672ecb25a6c5e0be584f3d742c7745d5ebe50d3b
+SHA256: b241ed2e755919f4d188c2daf1ac5e5365f10eef3d74ee2dfc00c9a51eab6cf1
+Homepage: http://www.httrack.com
+Description: Static libraries for httrack
+
 Package: hugo
 Version: 0.57.2
 Architecture: aarch64
@@ -2267,6 +2311,20 @@ SHA256: 12a9df2301ebf49f927f2019dfc9b9b8a1af3016e67572dba4d678bdb7502f89
 Homepage: https://www.gnu.org/software/indent/
 Description: C language source code formatting program
 
+Package: inetutils
+Version: 1.9.4-7
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1124
+Depends: readline
+Filename: aarch64/inetutils_1.9.4-7_aarch64.deb
+Size: 230788
+MD5sum: 059a65ffdde95b6bc2dbee9da62f922a
+SHA1: b48a43771349bf94090dcdcfa0e099b5196af9b7
+SHA256: e72ad83116d2832978f005a34a52f31930b045f47316f43bdb8fff0b4995e252
+Homepage: https://www.gnu.org/software/inetutils/
+Description: Collection of common network programs
+
 Package: inotify-tools
 Version: 3.20.1-1
 Architecture: aarch64
@@ -2310,6 +2368,36 @@ SHA256: 47f3f37dee3fd9ac9cdff6bbbbf7c3651607d773edef5396a692f3d037b62351
 Homepage: http://jodies.de/ipcalc
 Description: Calculates IP broadcast, network, Cisco wildcard mask, and host ranges
 
+Package: iperf3
+Version: 3.7-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 244
+Depends: openssl
+Breaks: iperf3-dev
+Replaces: iperf3-dev
+Filename: aarch64/iperf3_3.7-1_aarch64.deb
+Size: 58246
+MD5sum: 6913aa82a2a79dc33480718a42b9148f
+SHA1: f79396a5cdccb4e1c9ebf7897a807fe7c1cb80ac
+SHA256: ff0e5ee42cb038a7fe12ef1ed669675ce7a90c5e78fecb31bd9713f7bc71c33a
+Homepage: https://github.com/esnet/iperf
+Description: TCP, UDP, and SCTP network bandwidth measurement tool
+
+Package: iperf3-static
+Version: 3.7-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 264
+Depends: iperf3 (= 3.7-1)
+Filename: aarch64/iperf3-static_3.7-1_aarch64.deb
+Size: 53704
+MD5sum: 77042576f1f4a707dd88f2c6168fbc5c
+SHA1: fc2c05bb7ed083a592dc2e374cd1e6c3b9429447
+SHA256: 83d584c1990dade787175921c5388284f301d3c23f71eecf9466803c2f2caa94
+Homepage: https://github.com/esnet/iperf
+Description: Static libraries for iperf3
+
 Package: ipfs
 Version: 0.4.22
 Architecture: aarch64
@@ -2335,6 +2423,20 @@ SHA1: f8320c244e0a5d8d68fd70fd60e54cb93b9b3dda
 SHA256: c134d168100e52764a904c9fb459866ff6bcfc3ab94111892e5bb8273f07399f
 Homepage: https://github.com/radare/ired
 Description: Minimalist hexadecimal editor
+
+Package: isync
+Version: 1.3.1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 432
+Depends: openssl, zlib
+Filename: aarch64/isync_1.3.1_aarch64.deb
+Size: 119248
+MD5sum: da0d127659211ece3153f4b369e1c248
+SHA1: 2141a31fbc88d7d104ceb2e9d106d9320dc04ea2
+SHA256: 77d422d1d50baeb75782ef4b5313984ccab81a553ad903607775065c69df47e8
+Homepage: http://isync.sourceforge.net
+Description: IMAP and MailDir mailbox synchronizer
 
 Package: jhead
 Version: 3.03
@@ -2926,6 +3028,36 @@ SHA1: b195dbbac48f8b7be72734b9b0ab9d21759bdaa3
 SHA256: ececc42860da98532dccf99eac5430a80807cc12891e04655f33dc46237bb2e1
 Homepage: https://www.ginac.de/CLN/
 Description: Static libraries for libcln
+
+Package: libcoap
+Version: 4.2.0-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 948
+Depends: openssl
+Breaks: libcoap-dev
+Replaces: libcoap-dev
+Filename: aarch64/libcoap_4.2.0-1_aarch64.deb
+Size: 157838
+MD5sum: 982022ef638f78b1ca853f6167aa0cf2
+SHA1: c801eedec95a589887fc24f900c54cbd90f2f3d3
+SHA256: 63f0dfc1b086c964363916b44e18063867f902ea5d7a409f51d5b21bafba2730
+Homepage: https://libcoap.net/
+Description: Implementation of CoAP, a lightweight protocol for resource constrained devices
+
+Package: libcoap-static
+Version: 4.2.0-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 268
+Depends: libcoap (= 4.2.0-1)
+Filename: aarch64/libcoap-static_4.2.0-1_aarch64.deb
+Size: 54612
+MD5sum: 26a276caf4f7254353fbc3bf6d866b72
+SHA1: cb9f6c34d1676b8148272e0b93e4048614a52013
+SHA256: 3b051752c350b7776a1a93d73cbf5a162000836c274521d3d8669b44e1c4511d
+Homepage: https://libcoap.net/
+Description: Static libraries for libcoap
 
 Package: libconfig
 Version: 1.7.2-3
@@ -4009,6 +4141,36 @@ SHA256: f5f7c7b2552f0ec682035745cf06273eb6508ab0d55f0d0cc28546df6b24ca13
 Homepage: https://dev.maxmind.com/geoip/geoip2/
 Description: A geoip lookup utility for MaxMind DB
 
+Package: libmesode
+Version: 0.9.2-1
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 164
+Depends: openssl,libexpat
+Breaks: libmesode-dev
+Replaces: libmesode-dev
+Filename: aarch64/libmesode_0.9.2-1_aarch64.deb
+Size: 36860
+MD5sum: 9427fd0bcbbb77baa08d29732c1c16b2
+SHA1: 8f3939fab7ead3076bb1e8fa9abe772299fd58a1
+SHA256: 13ea11b5440efbab54f45cc79b4073cb72aaef72f3a1f055bbf5224bf12fdb2d
+Homepage: https://github.com/boothj5/libmesode
+Description: Minimal XMPP library written for use with Profanity XMPP client
+
+Package: libmesode-static
+Version: 0.9.2-1
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 208
+Depends: libmesode (= 0.9.2-1)
+Filename: aarch64/libmesode-static_0.9.2-1_aarch64.deb
+Size: 43380
+MD5sum: edb45878d12b60904a5ff3754a81d6c1
+SHA1: d2dac00e1aabdfe26880fb83588e091da40a4da5
+SHA256: c769eb641649aa6c8067cbbf4fb1bd1758b310db2fd26ae07f4f3414909c6f4e
+Homepage: https://github.com/boothj5/libmesode
+Description: Static libraries for libmesode
+
 Package: libmnl
 Version: 1.0.4-1
 Architecture: aarch64
@@ -4684,6 +4846,22 @@ SHA1: 4e94b933f21eeeb06b197cb7fc834e1217d9d660
 SHA256: 76e0b4dab937b9dc5e6e9a907e5c767a20382743164d119f364ff7702fae5771
 Homepage: https://www.sqlite.org
 Description: Static libraries for libsqlite
+
+Package: libssh
+Version: 0.9.0-1
+Architecture: aarch64
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 672
+Depends: openssl, zlib
+Breaks: libssh-dev
+Replaces: libssh-dev
+Filename: aarch64/libssh_0.9.0-1_aarch64.deb
+Size: 165026
+MD5sum: 415585503e62faf1e3833f2a6c50239b
+SHA1: dc6eb0a33c1678b7ab2f5fcf082b55968678f57a
+SHA256: effbb4383fc842e331655d109ea942239f6929b139fca6c19638531512d2047a
+Homepage: https://www.libssh.org/
+Description: Tiny C SSH library
 
 Package: libtalloc
 Version: 2.1.14-3
