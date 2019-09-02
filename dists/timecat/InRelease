@@ -1,58 +1,44 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Usage: apt-ftparchive [options] command
-Commands: packages binarypath [overridefile [pathprefix]]
-          sources srcpath [overridefile [pathprefix]]
-          contents path
-          release path
-          generate config [groups]
-          clean config
-
-apt-ftparchive generates index files for Debian archives. It supports
-many styles of generation from fully automated to functional replacements
-for dpkg-scanpackages and dpkg-scansources
-
-apt-ftparchive generates Package files from a tree of .debs. The
-Package file contains the contents of all the control fields from
-each package as well as the MD5 hash and filesize. An override file
-is supported to force the value of Priority and Section.
-
-Similarly apt-ftparchive generates Sources files from a tree of .dscs.
-The --source-override option can be used to specify a src override file
-
-The 'packages' and 'sources' command should be run in the root of the
-tree. BinaryPath should point to the base of the recursive search and 
-override file should contain the override flags. Pathprefix is
-appended to the filename fields if present. Example usage from the 
-Debian archive:
-   apt-ftparchive packages dists/potato/main/binary-i386/ > \
-               dists/potato/main/binary-i386/Packages
-
-Options:
-  -h    This help text
-  --md5 Control MD5 generation
-  -s=?  Source override file
-  -q    Quiet
-  -d=?  Select the optional caching database
-  --no-delink Enable delinking debug mode
-  --contents  Control contents file generation
-  -c=?  Read this configuration file
-  -o=?  Set an arbitrary configuration option
+Architectures: aarch64
+Codename: timecat
+Components: stable
+Date: Mon, 02 Sep 2019 06:42:39 +0000
+Label: timecat
+Origin: timecat
+Suite: timecat
+Version: 1.0.0
+MD5Sum:
+ aa7fb0bd501e84f8f91048924a320062             1575 Release
+ f84ca29f2f9e27e14b153f0c83fcc21b           277882 stable/binary-aarch64/Packages
+ cf38181ad2cbaac3dd2943ccbdc6915f            92309 stable/binary-aarch64/Packages.gz
+SHA1:
+ 0a33266d96c893c44ca6a6ff428f38203b98890b             1575 Release
+ 7b719d99957256d6915ea094446eee536d16426a           277882 stable/binary-aarch64/Packages
+ 1296948d8af47fed063b7c7c81ba6fdd56d492b6            92309 stable/binary-aarch64/Packages.gz
+SHA256:
+ c31b0eba723f6c43c9ed9aee2fd9b158182c3b93c891dd305532f611805caaf6             1575 Release
+ 6bb89837a63d29d446a06a034be537ee73dba6b923a17fc2f0380d85f23765fb           277882 stable/binary-aarch64/Packages
+ 6f6ff0ee0c317399817d94f48005acbc334e761c7c2371212a4bfacb7c6d1fec            92309 stable/binary-aarch64/Packages.gz
+SHA512:
+ 6d05234c7ed171015c100ffadc0350ea6fd4c5e7a0d2473ccc282fd1ee27a4695764b3ada229b600997c2efeca8c452eb2a65a96a8467742a91a444fef1065f1             1575 Release
+ da9ae6d379d29e23be1b8b9cac7ac986817b20b38e4d288ca5e47696b6ffb1e407a1eea4fb62c876b49e9ed8b060b43d1c6b9c0267f08c0e40ab5bfb2d295453           277882 stable/binary-aarch64/Packages
+ 16685c9fc94e60f34de39dcc0fce20e1ef22361ee5d471f64c4aaf25df5d613f1597426ef71bcbbb6f14d987f74d7d240aade04cc4299cf8e3d84217dd4de0fa            92309 stable/binary-aarch64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQJFBAEBCgAvFiEEQOvzrZzLIgJp2CLUOuv9uimfEC4FAl1suYwRHDc2MTUxNjE4
-NkBxcS5jb20ACgkQOuv9uimfEC4evw/+IJPmgihiCevhbmtWlVtElFqOnheLId9a
-0UvX9aRx674D5AfM32ElfCNXjQ1NwqB6cIjTmm0gKvPdiBZYh0u2NNZ3IioqmYas
-KULINh9JGDgrnv4EFDMemFZCqdxsIRG8nDwN+x50Z4zqjWPpp9Haq4Y7w4xN/DRN
-5DV7Xmq+PvZG2XIU08ZPfsGpXbcDpJ0LiBC1x4/kfJcxtqkewgusiBkfEjQV7elV
-jDrtcvzMECg28uayaibSHXxb0FF5qVUnLzwgcsyTmh2E+hmDFqd/l3xOgXDgqtZz
-FDCWWub1PfRG+fY/QZ1sa4eyZFagnMT1jYCdRMhUQhS1AkVAisnVQzTIISNq+iUU
-lNiincj5pfMpTbu7YKcvjhbFQ+WBSfHlJqoYQZ5lOetWbhYHRU8HzeGYwJNny3QM
-ajThEnJ9qfAE8dDi/0XzsrjxZBzR9OWVz43GI4m9ccTmmYCjkIsc1DCbnMRS5o6I
-hrCAQuYyudw4mDaHkgtws2dSGAgRFbQGRqZHEJt80cCpEFRErLtr3anRX/P7DoHK
-UnjCo4vZ9JrJXwrrXogCWBxXAA6wTOaTtEP8CJZ27lqIlpqVndyB+Fhd3/qIUXT/
-DsMSz5YAuUNCDDT4GGJ4zBN8c4Yk92qOwZzFKINA74AVJ6fxJy7oi4VIrV71z0GI
-zZOLmTjmCmY=
-=6xkv
+iQJFBAEBCgAvFiEEQOvzrZzLIgJp2CLUOuv9uimfEC4FAl1sueARHDc2MTUxNjE4
+NkBxcS5jb20ACgkQOuv9uimfEC7VXRAAoCVRQ7kZEWPHRGKfv/Y/HntHfgk8B9yA
+QkUDTJrH/BSHcg8xXY23j8k0en1lCsFnf5qoZ87YfKc7kZPVz+QAS1NSqHqW3jKW
+vdFz9ZBUfBWNmTmm01uDFywTXZmx/4VamEZb8Hhl+b+ZOjSJX2rDveKK21Va4I7g
+1d4u5c/vQ4njkz3ij8Z6WaS8DJB/43KU+7NClH7KLiFatvSoCELrGvtRCNJ0TOu3
+PNv9wTmhcfouwUTOjUwDfdElYbOAR2O8IDoeW7L7djxA5gwelzYkZqhuazzEqhre
+KA6hZcP6utT8ufqChDrAZskNdojKgxm1rAC1HdRFJX1V2JwToAHrSjLevmWKL5IM
+8tNiiw3v7O1B4s6uOFVryVyNbpajvtgY9fZJuI4ZZVXELG711HaqumUQcYqnFoQt
+YrtJ/tHbS8Dr88CStyQJyQoAgI7ZiYzodpqjFelRu3iY9aDHJEzP5esxObvuF2QS
+lgztV9PLtBxWjtlHYqef4nRGd0sV2TcVjSFvVvuRBqv5/ilsel5xr4qTmqLFgkF4
+DBMVki6TLiDbV2dDJD5lH2yhPaUyqfAdaRwY0IuuTbgiS/3HnbNZsY6XYxiFzDsE
+VP2hBbP3y7U3bb9iQwQAZiYClx3mMBrpXkLIPme+CxPcw1BzGnCh7UWZl+ZXtTb4
+2WdQ2LkrGRI=
+=H7aR
 -----END PGP SIGNATURE-----
