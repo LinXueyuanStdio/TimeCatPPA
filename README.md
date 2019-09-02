@@ -3,7 +3,7 @@
 - [dists](./dists)
 - [aarch64](./aarch64)
 - [shell](./shell)
-- [shell](./boot)
+- [boot](./boot)
 
 .deb files for timecat
 
