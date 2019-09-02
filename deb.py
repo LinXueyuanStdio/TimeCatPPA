@@ -10,3 +10,4 @@ def generateREADMEforFolder(debs_dir):
 generateREADMEforFolder('./aarch64/')
 generateREADMEforFolder('./dists/')
 generateREADMEforFolder('./shell/')
+generateREADMEforFolder('./boot/')
